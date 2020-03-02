@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+	<title>Movie List</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+    crossorigin="anonymous"></script>
+    <script src="js/script.js" ></script>
+</head>
+<body>
+	<div class="container">
+    	<div class="jumbotron">
+	    	<h3 class="text-center">Search For Any Movie</h3>
+			<form id="searchForm">
+				<input class="form-control" type="text" id="search-movie" placeholder="Search Movies...">
+			</form>
+	    </div>
+	    <div class="actions hide text-right">
+			<button class="prev btn btn-primary disabled">Previous</button>
+			<button class="next btn btn-primary">Next</button>
+		</div>
+		<ul class="movie-list-container"></ul>
+    </div>
+</body>
+</html>
